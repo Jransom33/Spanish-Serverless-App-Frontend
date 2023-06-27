@@ -15,7 +15,7 @@ const Lesson = () => {
 
 
     return (
-        <div className=' bg-slate-300 w-full h-screen overflow-x-hidden px-[10%] pt-[5%] pb-[10%] scroll-p-0'>
+        <div className=' bg-slate-300 w-full h-auto overflow-x-hidden px-[10%] pt-[5%] pb-[10%] scroll-p-0 scroll-m-0'>
             <Markdown className="prose whitespace-normal text-center mx-auto mb-[5%]" children={markdownContent}></Markdown>
             <Card/>
             
