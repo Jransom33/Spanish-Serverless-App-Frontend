@@ -5,7 +5,7 @@ import Home2 from '../Components/home2.component';
 import Footer from '../Components/Footer.component';
 const MyComponent = () => {
     return (
-             <div className="bg-[#0a085e] w-full h-screen overflow-x-hidden">
+             <div className="bg-[#0a085e] w-full h-screen overflow-x-hidden scroll-p-0">
       <title>Learn Spanish. Conversational. All talk. All Spoken.</title>
       <Navbar className='my-0'/>
       <Hme className='my-0'/>
