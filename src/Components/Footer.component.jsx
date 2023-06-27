@@ -11,7 +11,7 @@ const Footer = () => {
          </div>
          <div className='w-screen/3 flex gap-[5vw] mr-[5%]'>
             <div>
-                <a className='text-white font-bold text-md md:text-2xl' href='#'>Contact Us</a>
+                <h5 className='text-white font-bold text-md md:text-2xl' >Contact Us</h5>
                 <h6 className='text-xs pt-[3%] text-white'>Jransom113@gmail.com</h6>
                 {/* <h6 className='text-sm pl-2 text-white'>Support</h6> */}
             </div>

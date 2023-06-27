@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {AiOutlineMenu} from 'react-icons/ai'
+//import {AiOutlineMenu} from 'react-icons/ai'
 const Navbar = () => {
  const [nav,setNav] = useState(false);
  //handleClick function used to toggle the hamburger menu icon
@@ -16,14 +16,14 @@ const Navbar = () => {
         </div>
         
         {/* container for items to right side of navigation bar */}
-        <div className='pt-[2.5vh] hidden md:flex'>
+        <div className='pt-[2.5vh]  flex'>
           <button className='rounded-[55px] z-30 w-[150px] h-[5vh] bg-transparent  font-extrabold text-slate-200 text-lg pb-1 '> We're In Beta</button>
           {/* <button className=' rounded-[55px] z-30 w-[150px] h-[5vh] bg-slate-300 shadow-md font-extrabold text-[#0a085e] text-lg pb-1 '>
             Sign Up
           </button> */}
         </div>
           {/* Hamburger Menu Icon */}
-        <AiOutlineMenu className=' text-[40px] sm:text-[45px] md:hidden mt-[2.5vh] '/>
+        {/* <AiOutlineMenu className=' text-[40px] sm:text-[45px] md:hidden mt-[2.5vh] '/> */}
       </nav>
     )
 }
