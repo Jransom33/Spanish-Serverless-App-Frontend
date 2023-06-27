@@ -46,7 +46,7 @@ const Card = () => {
         console.log("count from useEffect with count dependency: " + count)
         console.log("sentence from useEffect with count dependency: " + sentence)
     }, [count])
-    //
+    
 
    //Uses axios to get the sentences from the serverless backend
    //Uses useEffect to run the function once the component is mounted but only once (empty array as second argument)
