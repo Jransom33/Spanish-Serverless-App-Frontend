@@ -3,9 +3,9 @@ import { useState } from 'react';
 const Navbar = () => {
  const [nav,setNav] = useState(false);
  //handleClick function used to toggle the hamburger menu icon
- const handleClick = () => {
-    setNav(!nav);
-    }
+//  const handleClick = () => {
+//     setNav(!nav);
+//     }
     return (
       //Flexbox navigation bar with responsive design. first div contains the logo, second div contains the buttons and the hamburger menu icon is hidden on screens larger than 768px
         <nav className='flex justify-between mr-[5vw] ml-[2vw] align-bottom h-[10vh]'>

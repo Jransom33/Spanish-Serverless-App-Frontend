@@ -3,7 +3,7 @@
 //Footer Component containing the footer of the website
 const Footer = () => {
     return (
-        <footer className="h-[15vh] sm:h-[20vh] bg-[#0a085e]  mx-[5%] pt-[5%] md:pt-[3%] flex justify-between">
+        <footer className="h-[18vh] sm:h-[20vh] bg-[#0a085e]  mx-[5%] pt-[5%] md:pt-[3%] flex justify-between">
             <div className='flex w-screen/3'>
                 <img className='h-[40px] pr-2' src='logo.svg' width={30}
         height={30} alt='logo'></img>
