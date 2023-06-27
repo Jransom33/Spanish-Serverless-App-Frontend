@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+  .card_class {
+    border-radius: 50px;
+    background: #cbd5e1;
+    box-shadow:  20px 20px 57px #adb5bf,
+             -20px -20px 57px #e9f5ff;
+  }
+
+ 
