@@ -5,7 +5,7 @@ import Home2 from '../Components/home2.component';
 import Footer from '../Components/Footer.component';
 //hero component is the home page of the website
 //contains the title and the get started button
-//the get started button links to the lesson page
+//the get started button links to the lesson page.
 const MyComponent = () => {
     return (
              <div className="bg-[#0a085e] w-full h-auto overflow-x-hidden scroll-p-0 scroll-m-0">
