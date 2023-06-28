@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='flex w-screen/3'>
                 <img className='h-[40px] pr-2' src='logo.svg' width={30}
         height={30} alt='logo'></img>
-            <h2 className="text-white font-bold pt-[6px]">  Learn Spanish</h2>
+            <h2 className="text-white font-bold pt-[6px]"> Learn Spanish</h2>
          </div>
          <div className='w-screen/3 flex gap-[5vw] mr-[5%]'>
             <div>
